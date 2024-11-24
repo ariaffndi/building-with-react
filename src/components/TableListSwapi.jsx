@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
 
 function TableListSwapi() {
-	const [data, setData] = useState([]); // Data utama
-	const [loading, setLoading] = useState(true); // Status loading
-	const [detail, setDetail] = useState({}); // Data detail
+	const [data, setData] = useState([]);
+	const [loading, setLoading] = useState(true);
+	const [detail, setDetail] = useState({});
 	const [pagination, setPagination] = useState({
 		next: null,
 		previous: null,
-	}); // Informasi pagination
+	});
 
-	// Mendapatkan data awal
 	const getData = async () => {
 		setLoading(true);
 		try {
@@ -24,7 +23,7 @@ function TableListSwapi() {
 		}
 	};
 
-	// Mendapatkan data berdasarkan URL (next/prev)
+
 	const getDataNextPrev = async (url) => {
 		if (!url) return;
 		setLoading(true);
@@ -40,7 +39,7 @@ function TableListSwapi() {
 		}
 	};
 
-	// Mendapatkan detail data
+
 	const getDetailData = async (url) => {
 		if (!url) return;
 		setLoading(true);
@@ -55,7 +54,7 @@ function TableListSwapi() {
 		}
 	};
 
-	// Menjalankan getData saat komponen pertama kali dimuat
+
 	useEffect(() => {
 		getData();
 	}, []);
@@ -158,6 +157,7 @@ function TableListSwapi() {
 						</div>
 					</dialog>
 				)}
+
 			</div>
 		</div>
 	);
