@@ -1,9 +1,14 @@
-import ExampleDaisyui from "./components/ExampleDaisyui";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import TableListSwapi from "./components/TableListSwapi";
 function App() {
 	return (
-		<>
-			<ExampleDaisyui />
-		</>
+		<div className="mx-10">
+			<Navbar />
+			<Header title = "Tabel SWAPI" />
+			<TableListSwapi />
+
+		</div>
 	);
 }
 
