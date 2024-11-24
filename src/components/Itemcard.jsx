@@ -2,7 +2,7 @@ import React from "react";
 
 function ItemCard({ title, stock, price, image }) {
 	return (
-		<div className="item" style={{ marginTop: "10px", width: "400px" }}>
+		<div className="item" style={{ marginTop: "10px", width: "400px"}}>
 			<div
 				className="card"
 				style={{
