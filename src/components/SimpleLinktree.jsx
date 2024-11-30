@@ -69,7 +69,7 @@ function SimpleLinktree() {
 
 			<div className="text-center mt-8">
 				<p className="text-sm text-gray-400">
-					@2024 ari.affndii all rights reserved
+					@2024 ari.affndii build with React
 				</p>
 			</div>
 		</div>
