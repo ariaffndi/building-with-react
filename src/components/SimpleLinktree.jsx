@@ -1,3 +1,5 @@
+import avatar from "./../assets/profile.jpg";
+
 function SimpleLinktree() {
 	return (
 		<div className="min-h-screen flex flex-col items-center justify-center">
@@ -5,7 +7,7 @@ function SimpleLinktree() {
 			<div className="text-center">
 				<div className="avatar">
 					<div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mb-4">
-						<img src="../src/assets/profile.jpg" alt="Avatar" />
+						<img src={avatar} alt="Avatar" />
 					</div>
 				</div>
 				<h1 className="text-2xl font-bold">ari</h1>
@@ -35,7 +37,10 @@ function SimpleLinktree() {
 				>
 					Email
 				</a>
-				<a href="https://wa.me/6282211435638" className="btn btn-outline w-full mb-4 hover:btn-warning">
+				<a
+					href="https://wa.me/6282211435638"
+					className="btn btn-outline w-full mb-4 hover:btn-warning"
+				>
 					WhatsApp
 				</a>
 			</div>
