@@ -14,9 +14,9 @@ function SimpleLinktree() {
 			</div>
 
 			<div className="mt-8 w-full max-w-xs">
-				<a href="#" className="btn btn-outline w-full mb-4 hover:btn-primary">
+				{/* <a href="#" className="btn btn-outline w-full mb-4 hover:btn-primary">
 					Personal Web
-				</a>
+				</a> */}
 				<a
 					href="https://github.com/ariaffndi"
 					className="btn btn-outline w-full mb-4 hover:btn-secondary"
