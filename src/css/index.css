@@ -7,3 +7,5 @@
 *{
    font-family: 'Poopins', sans-serif;
 }
+
+@import '@fortawesome/fontawesome-free/css/all.css';
